@@ -1,0 +1,217 @@
+@import "../../_globalColor";
+
+/* ========================
+   CARD IMAGE
+======================== */
+.card-image {
+  max-width: 100%;
+  height: 250px;
+  width: auto;
+  transition: transform 0.4s ease;
+}
+
+/* ========================
+   CARD BASE
+======================== */
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: $lightBackground2;
+  padding: 1rem;
+  border-radius: 14px;
+  border: 1px solid $lightBorder1;
+  justify-content: space-between;
+}
+
+/* ========================
+   LIGHT / DARK MODE
+======================== */
+.project-card-light {
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  transition: all 0.35s ease;
+}
+
+.project-card-dark {
+  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
+  transition: all 0.3s ease;
+}
+
+/* ========================
+   HOVER EFFECTS
+======================== */
+.project-card-light:hover,
+.project-card-dark:hover {
+  transform: translateY(-6px);
+}
+
+.project-card:hover .card-image {
+  transform: scale(1.05);
+}
+
+/* ========================
+   IMAGE WRAPPER
+======================== */
+.project-image {
+  position: relative;
+  height: 240px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* ========================
+   STATUS BADGE
+======================== */
+.project-status {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 5px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  z-index: 2;
+}
+
+.project-status.live {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+.project-status.apk {
+  background: #f59e0b;
+  color: #000000;
+}
+
+.project-status.dev {
+  background: #6366f1;
+  color: #ffffff;
+}
+
+/* ========================
+   CARD CONTENT
+======================== */
+.project-detail {
+  text-align: center;
+}
+
+.card-title {
+  color: $titleColor;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 700;
+  margin: 12px 0 6px;
+}
+
+.card-subtitle {
+  color: $cardSubtitle;
+  font-size: 16px;
+  line-height: 1.6rem;
+  margin-bottom: 10px;
+}
+
+/* ========================
+   TECH STACK
+======================== */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 12px 0;
+}
+
+.tech-badge {
+  background: rgba(0, 0, 0, 0.06);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 4px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+
+.dark-mode .tech-badge {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.tech-icon {
+  margin-right: 6px;
+}
+
+/* ========================
+   HIGHLIGHTS
+======================== */
+.project-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.project-highlights li {
+  margin-bottom: 6px;
+  color: $cardSubtitle;
+}
+
+/* ========================
+   CTA BUTTONS
+======================== */
+.project-card-footer {
+  margin-top: 10px;
+}
+
+.project-btn {
+  background: linear-gradient(135deg, $buttonColor, #6366f1);
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 0 6px 6px 0;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.project-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0px 8px 20px rgba(99, 102, 241, 0.4);
+}
+
+/* ========================
+   GRID LAYOUT
+======================== */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+/* ========================
+   SUBTITLE
+======================== */
+.project-subtitle {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* ========================
+   RESPONSIVE
+======================== */
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-subtitle {
+    font-size: 15px;
+  }
+
+  .project-image {
+    height: 200px;
+  }
+}
