@@ -176,7 +176,7 @@ const bigProjects = {
   display: true,
   projects: [
     {
-      image: require("./assets/images/crewzy.jpg"),
+      image: require("./assets/images/aaaa.jpg"),
       projectName: "Crewzy(Social Media & Collaboration Platform)",
       projectDesc:
         "Crewzy is a modern social media web application inspired by platforms like Instagram, designed to help users connect, share, and communicate in real time. ",
@@ -251,7 +251,7 @@ const achievementSection = {
       title: "ACPC 2K25",
       subtitle:
         "Our team BitSquad secured 13th rank out of 400+ teams at the ACPC 2025 Offline Competitive Programming Contest 💻🏆",
-      image: require("./assets/images/aaaa.jpg"),
+      image: require("./assets/images/acpc.webp"),
       imageAlt: "ACPC 2k25 logo",
       footerLink: [
         {
