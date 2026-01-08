@@ -24,8 +24,8 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web  applications with JavaScript / Reactjs / Nodejs / Golang and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/10R0GMRQFA3G-d8w8dXtM56uHdU5CYuI9", 
-  displayGreeting: true 
+    "https://drive.google.com/file/d/10R0GMRQFA3G-d8w8dXtM56uHdU5CYuI9",
+  displayGreeting: true
 };
 
 // Social Media Links
@@ -33,10 +33,10 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/arpitsha26",
   linkedin: "https://www.linkedin.com/in/arpitsha26/",
-  gmail: "arpitsharma1263@gmail.com", 
- 
- 
-  display: true 
+  gmail: "arpitsharma1263@gmail.com",
+
+
+  display: true
 };
 
 // Skills Section
@@ -66,7 +66,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -79,8 +79,8 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    
-    
+
+
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -89,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-  
+
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -99,13 +99,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
-  display: true 
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, 
+  display: true,
   schools: [
     {
       schoolName: "Ajay Kumar Garg Engineering College{AKTU}",
@@ -114,7 +114,7 @@ const educationInfo = {
       duration: "Aug 2023 - July 2027",
       desc: "CGPA: 8",
       descBullets: [
-        
+
       ]
     }
   ]
@@ -126,8 +126,8 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "Backend{Nodejs, Golang}", 
-      progressPercentage: "95%" 
+      Stack: "Backend{Nodejs, Golang}",
+      progressPercentage: "95%"
     },
     {
       Stack: "Programming{C++}",
@@ -138,13 +138,13 @@ const techStack = {
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: true 
+  displayCodersrank: true
 };
 
 // Work experience section
 
 const workExperiences = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Backend Developer Trainee",
@@ -157,15 +157,15 @@ const workExperiences = {
         "Implemented WebSocket-based real-time communication, boosting engagement by 40%."
       ]
     }
-    
+
   ]
 };
 
 
 
 const openSource = {
-  showGithubProfile: "true", 
-  display: true 
+  showGithubProfile: "true",
+  display: true
 };
 
 
@@ -211,7 +211,7 @@ const bigProjects = {
         "Sanskriti is a cultural mobile web platform that showcases India’s rich heritage,  including monuments, festivals, food, arts, marketplace and folk stories. ",
       status: "APK",
       techStack: [
-        
+
         { name: "Node.js", icon: "🟢" },
         { name: "Express", icon: "🚀" },
         { name: "MongoDB", icon: "🍃" },
@@ -227,7 +227,7 @@ const bigProjects = {
           name: "📱APK",
           url: "https://drive.google.com/u/0/uc?id=11X1B9UpTN2TafM4PjXPbFeJM0J8F5_j4&export=download",
         },
-         {
+        {
           name: "🚀Code",
           url: "https://github.com/arpitsha26/Sanskriti",
         },
@@ -250,15 +250,15 @@ const achievementSection = {
     {
       title: "ACPC 2K25",
       subtitle:
-        "Ranked 13th out of 400+ teamsOur team BitSquad secured 13th rank out of 400+ teams at the ACPC 2025 Offline Competitive Programming Contest 💻🏆",
-      image: require("./assets/images/acpc.webp"),
+        "Our team BitSquad secured 13th rank out of 400+ teams at the ACPC 2025 Offline Competitive Programming Contest 💻🏆",
+      image: require("../public/crewzy.jpg"),
       imageAlt: "ACPC 2k25 logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/14zDX6BMmIhbicjRhjAwDh1f12zsK9NyT/view?usp=sharing"
         },
-        
+
       ]
     },
     {
@@ -268,11 +268,11 @@ const achievementSection = {
       image: require("./assets/images/sih.jpg"),
       imageAlt: "SIH Logo",
       footerLink: [
-        
+
       ]
     },
 
-    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -325,11 +325,11 @@ const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  
+
   podcast: [
     ""
   ],
-  display: false 
+  display: false
 };
 
 // Resume Section
@@ -337,8 +337,8 @@ const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
 
- 
-  display: true 
+
+  display: true
 };
 
 const contactInfo = {
@@ -352,11 +352,11 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "arpitsha26", 
-  display: true 
+  userName: "arpitsha26",
+  display: true
 };
 
-const isHireable = true; 
+const isHireable = true;
 export {
   illustration,
   greeting,
