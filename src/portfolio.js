@@ -176,7 +176,7 @@ const bigProjects = {
   display: true,
   projects: [
     {
-      image: require("./assets/images/aaaa.jpg"),
+      image: require("./assets/images/aaaa.png"),
       projectName: "Crewzy(Social Media & Collaboration Platform)",
       projectDesc:
         "Crewzy is a modern social media web application inspired by platforms like Instagram, designed to help users connect, share, and communicate in real time. ",
