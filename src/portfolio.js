@@ -251,7 +251,7 @@ const achievementSection = {
       title: "ACPC 2K25",
       subtitle:
         "Our team BitSquad secured 13th rank out of 400+ teams at the ACPC 2025 Offline Competitive Programming Contest 💻🏆",
-      image: require("../public/crewzy.jpg"),
+      image: require("./assets/images/aaaa.jpg"),
       imageAlt: "ACPC 2k25 logo",
       footerLink: [
         {
